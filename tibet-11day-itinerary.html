@@ -11,9 +11,7 @@
     <meta name="apple-mobile-web-app-title" content="西藏自驾">
     <meta name="theme-color" content="#0a0e17">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="pwa/icon-192.png">
-    <link rel="icon" type="image/jpeg" href="pwa/icon-512.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -3546,7 +3544,7 @@
         // All day-cards expanded by default
     });
 </script>
-<script src="_shared/js/echarts.min.js"></script>
+<script src="_shared/js/echarts.min.js" onerror="console.log('echarts load skipped')"></script>
 <script src="assets/charts.js"></script>
 
 </body>

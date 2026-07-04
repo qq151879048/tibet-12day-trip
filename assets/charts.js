@@ -1,4 +1,5 @@
 (function() {
+  if (typeof echarts === 'undefined') return;
   var style = getComputedStyle(document.documentElement);
   var accent = style.getPropertyValue('--accent').trim();
   var accent2 = style.getPropertyValue('--accent2').trim();
