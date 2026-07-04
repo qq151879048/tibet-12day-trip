@@ -1,8 +1,7 @@
 {
   "name": "西藏12天自驾全攻略",
   "short_name": "西藏自驾",
-  "description": "2026.09.27-10.08 西藏阿里南线12天自驾行程规划",
-  "start_url": "./tibet-11day-itinerary.html",
+  "start_url": ".",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
@@ -22,6 +21,5 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["travel", "lifestyle"],
   "lang": "zh-CN"
 }
